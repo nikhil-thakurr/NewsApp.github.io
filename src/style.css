@@ -1,0 +1,42 @@
+*{
+    /* font-family:  sans-serif; */
+   box-sizing: border-box;
+}
+
+.card{
+    cursor: pointer;
+}
+
+
+.card:hover{
+    background-color: darkblue;
+    font-size: larger;
+    color: darkcyan;
+   
+}
+.nav-item:hover{
+    font-size: 20px;
+    /* color: darkmagenta; */
+}
+
+.nav-item{
+    animation: header;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes header {
+    0%{
+        transform: translate(-50%);
+    }
+    100%{
+        transform: translate(220px);
+    }
+    
+}
+
+.move{
+    color: black;
+}
+
